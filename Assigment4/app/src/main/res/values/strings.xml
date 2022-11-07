@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Walmart Aplication</string>
+    <string name="todo" />
+    <string name="sign_in_to_your_account" />
+</resources>
