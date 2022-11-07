@@ -40,8 +40,6 @@ class HomeActivity : AppCompatActivity() {
     ))
 
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -51,8 +49,8 @@ class HomeActivity : AppCompatActivity() {
         var intentLista = Intent(this,ProductActivity::class.java)
 
         imageView6.setOnClickListener{
-            intentLista.putExtra("products", eletronic)
-            startActivity(intentLista)
+            var intentDetail = Intent(this,DetailActivity::class.java)
+            startActivity(intentDetail)
         }
 
         imageView2.setOnClickListener{
@@ -69,7 +67,6 @@ class HomeActivity : AppCompatActivity() {
             intentLista.putExtra("products", clothes)
             startActivity(intentLista)
         }
-
 
 
     }
