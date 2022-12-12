@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CVBuilder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_description">
+        Working with ABAP / PI developer since 2011, I start my work with sap 4.6c. Education:
+        Tecnology in Softwares development at University Salgado de Oliveira , 4 year.
+        I Have knowledge in: Fiori Apps, Hana, CDS, ALV, REPORT, BATCH INPUT, MODULE POOL,
+        FUNCTION, HR, SAP SCRIPT, QUERY, RFC, lSMW, BAPI, BADI, IDOC, ALVOO,OO DEVELOPMENT,
+        INTERFACES. I work with Modules: FI/CO, SD, MM, QM, PP, HR, WM, LO, AI, and FI.
+    </string>
+    <string name="home_education">
+        I have a degree in systems analysis and mathematics, I am currently doing a master\'s degree in systems development at MIU.
+        I love studying, and always looking for the best for my life and for my family.
+    </string>
+    <string name="about_me">
+        I am a very motivated person who lives for technology and my family. One of the most important things about me is that I am a person with  a great ability to work under pressure and in difficult situations.
+        I love computer programming and also things related to economics and the stock market.
+    </string>
+    <string name="bacharel">
+        Bachelor in systems analysis and development, from Salgado Oliveira University, in Brazil
+    </string>
+    <string name="master">
+        Master in Systems Development, expected to graduate in 2023
+    </string>
+</resources>
