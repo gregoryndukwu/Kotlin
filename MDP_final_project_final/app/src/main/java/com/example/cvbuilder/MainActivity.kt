@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
             var loginResult = runLogin(email, password)
             if(loginResult) {
-                clearInputs()
+
                 var intent = Intent(this, Home::class.java)
 
                 startActivity(intent)
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         if(emailShared != "" && passwordShared != "") {
             var loginResult = runLogin(emailShared, passwordShared)
             if(loginResult) {
-                clearInputs()
+
                 var intent = Intent(this, Home::class.java)
 
                 startActivity(intent)
@@ -84,5 +84,6 @@ class MainActivity : AppCompatActivity() {
         return user
 
     }
+
 
 }
